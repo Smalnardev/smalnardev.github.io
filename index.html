@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Simon Malnar — Lead Software Engineer & Game Developer with 12+ years experience in commercial games, Pawker, Oh Baby Kart, VR/XR, low-latency netcode, and Unity systems.">
+    <title>Simon Malnar — Lead Software Engineer & Game Developer</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="brand">
+                <span class="brand-name">Simon Malnar</span>
+                <span class="brand-role">Lead Software Engineer & Game Dev</span>
+            </a>
+
+            <nav class="nav">
+                <a href="#games" class="nav-link">Shipped Games</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#contact" class="nav-link contact-btn">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <h1 class="hero-title">
+                    Simon Malnar
+                </h1>
+                <p class="hero-subtitle">
+                    Software engineer with 12+ years of experience shipping commercial titles like
+                    <strong>Pawker</strong>, <strong>Oh Baby Kart</strong>, and <strong>Crazy Fishing</strong>,
+                    pioneering custom XR/3D data visualisations, building low-latency networking, and authoring Unity
+                    tooling.
+                </p>
+
+                <div class="hero-contact-row">
+                    <a href="Simon_Malnar_Resume.pdf" target="_blank" class="btn btn-primary"><i
+                            class="fa-solid fa-file-arrow-down"></i> Download Resume (PDF)</a>
+                    <a href="mailto:smalnardev@gmail.com" class="btn btn-secondary"><i class="fa-solid fa-envelope"></i>
+                        smalnardev@gmail.com</a>
+                    <a href="https://www.linkedin.com/in/simonmalnar/" target="_blank" rel="noopener"
+                        class="btn btn-secondary"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Shipped Commercial Titles -->
+        <section class="section" id="games">
+            <div class="container">
+                <div class="section-heading">
+                    <h2>Shipped Commercial Games</h2>
+                    <p>Commercial titles released on Steam and VR platforms throughout my career.</p>
+                </div>
+
+                <div class="games-grid">
+
+                    <!-- Pawker -->
+                    <article class="game-card featured-game">
+                        <div class="carousel-container">
+                            <div class="carousel-slides">
+                                <img src="images/pawker.jpg" alt="Pawker Gameplay" class="carousel-slide active">
+                            </div>
+                            <span class="media-badge"><i class="fa-brands fa-steam"></i> Steam • Oh Baby Games</span>
+                        </div>
+                        <div class="game-details">
+                            <div class="game-header">
+                                <h3 class="game-title">Pawker</h3>
+                                <span class="game-role">Lead Developer • Oh Baby Games</span>
+                            </div>
+                            <p class="game-description">
+                                Multiplayer poker deckbuilder roguelike game shipped on Steam. Led development from
+                                prototype to release, core gameplay systems, card mechanics, multiplayer
+                                synchronization, and custom Unity Editor tooling to accelerate designer workflows.
+                            </p>
+                            <div class="tech-tags">
+                                <span class="tech-tag tech-tag-highlight">Unity</span>
+                                <span class="tech-tag tech-tag-highlight">Photon Fusion</span>
+                                <span class="tech-tag">C#</span>
+                            </div>
+                            <div class="game-actions">
+                                <a href="https://store.steampowered.com/app/3909570/Pawker/" target="_blank"
+                                    rel="noopener" class="btn btn-steam">
+                                    <i class="fa-brands fa-steam"></i> View Pawker on Steam
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Oh Baby Kart -->
+                    <article class="game-card">
+                        <div class="carousel-container">
+                            <div class="carousel-slides">
+                                <img src="images/KartGame.jpg" alt="Oh Baby Kart" class="carousel-slide active">
+                            </div>
+                            <span class="media-badge"><i class="fa-brands fa-steam"></i> Steam • Oh Baby Games</span>
+                        </div>
+                        <div class="game-details">
+                            <div class="game-header">
+                                <h3 class="game-title">Oh Baby Kart</h3>
+                                <span class="game-role">Lead Developer • Oh Baby Games</span>
+                            </div>
+                            <p class="game-description">
+                                Fast-paced multiplayer kart racer shipped on Steam. Built the core item and ability
+                                system from the ground up, enabling extensive item variety, modular power-up logic, and
+                                complex gameplay interactions.
+                            </p>
+                            <div class="tech-tags">
+                                <span class="tech-tag tech-tag-highlight">Unity</span>
+                                <span class="tech-tag tech-tag-highlight">Photon Quantum</span>
+                                <span class="tech-tag">C#</span>
+                            </div>
+                            <div class="game-actions">
+                                <a href="https://store.steampowered.com/app/2598980/Oh_Baby_Kart/" target="_blank"
+                                    rel="noopener" class="btn btn-steam">
+                                    <i class="fa-brands fa-steam"></i> View Oh Baby Kart on Steam
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Torii: Beyond the gates -->
+                    <article class="game-card">
+                        <div class="carousel-container">
+                            <div class="carousel-slides">
+                                <img src="images/torii.jpg" alt="Torii: Beyond the gates" class="carousel-slide active">
+                            </div>
+                            <span class="media-badge"><i class="fa-brands fa-steam"></i> Steam • Oh Baby Games</span>
+                        </div>
+                        <div class="game-details">
+                            <div class="game-header">
+                                <h3 class="game-title">Torii: Beyond the gates</h3>
+                                <span class="game-role">Lead Developer • Oh Baby Games</span>
+                            </div>
+                            <p class="game-description">
+                                Action-adventure title shipped on Steam featuring stylized environment exploration,
+                                puzzle mechanics, and character interaction systems.
+                            </p>
+                            <div class="tech-tags">
+                                <span class="tech-tag tech-tag-highlight">Unity</span>
+                                <span class="tech-tag">C#</span>
+                            </div>
+                            <div class="game-actions">
+                                <a href="https://store.steampowered.com/app/3933180/Torii_Beyond_The_Gates/"
+                                    target="_blank" rel="noopener" class="btn btn-steam">
+                                    <i class="fa-brands fa-steam"></i> View Torii on Steam
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Crazy Fishing -->
+                    <article class="game-card">
+                        <div class="carousel-container">
+                            <div class="carousel-slides">
+                                <img src="images/crazy-fishing.jpg" alt="Crazy Fishing Screenshot"
+                                    class="carousel-slide active">
+                            </div>
+                            <span class="media-badge"><i class="fa-brands fa-steam"></i> SteamVR</span>
+                        </div>
+                        <div class="game-details">
+                            <div class="game-header">
+                                <h3 class="game-title">Crazy Fishing</h3>
+                                <span class="game-role">Programmer • Offpeak Games</span>
+                            </div>
+                            <p class="game-description">
+                                Co-developed and shipped a commercial VR fishing game on Steam. Designed unique 3D
+                                physics-based interaction systems specifically tailored to the hardware tracking
+                                constraints of the HTC Vive and Oculus Rift.
+                            </p>
+                            <div class="tech-tags">
+                                <span class="tech-tag tech-tag-highlight">Unity</span>
+                                <span class="tech-tag">SteamVR</span>
+                                <span class="tech-tag">C#</span>
+                            </div>
+                            <div class="game-actions">
+                                <a href="https://store.steampowered.com/app/594370/Crazy_Fishing/" target="_blank"
+                                    rel="noopener" class="btn btn-steam">
+                                    <i class="fa-brands fa-steam"></i> View Crazy Fishing on Steam
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Arcane -->
+                    <article class="game-card">
+                        <div class="carousel-container">
+                            <div class="carousel-slides">
+                                <img src="images/arcane.jpg" alt="Arcane VR Screenshot" class="carousel-slide active">
+                            </div>
+                            <span class="media-badge"><i class="fa-brands fa-steam"></i> SteamVR</span>
+                        </div>
+                        <div class="game-details">
+                            <div class="game-header">
+                                <h3 class="game-title">Arcane</h3>
+                                <span class="game-role">Programmer • Offpeak Games</span>
+                            </div>
+                            <p class="game-description">
+                                Co-developed and shipped a commercial multiplayer VR magic action title on Steam
+                                featuring 3D physics-based interaction systems and combat.
+                            </p>
+                            <div class="tech-tags">
+                                <span class="tech-tag tech-tag-highlight">Unity</span>
+                                <span class="tech-tag">SteamVR</span>
+                                <span class="tech-tag">C#</span>
+                            </div>
+                            <div class="game-actions">
+                                <a href="https://store.steampowered.com/app/534870/Arcane/" target="_blank"
+                                    rel="noopener" class="btn btn-steam">
+                                    <i class="fa-brands fa-steam"></i> View Arcane on Steam
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Valiant -->
+                    <article class="game-card">
+                        <div class="carousel-container">
+                            <div class="carousel-slides">
+                                <img src="images/valiant.png" alt="Valiant VR Screenshot" class="carousel-slide active">
+                            </div>
+                            <span class="media-badge"><i class="fa-brands fa-steam"></i> SteamVR</span>
+                        </div>
+                        <div class="game-details">
+                            <div class="game-header">
+                                <h3 class="game-title">Valiant</h3>
+                                <span class="game-role">Programmer • Offpeak Games</span>
+                            </div>
+                            <p class="game-description">
+                                Shipped a commercial multiplayer VR medieval combat game on Steam. Implemented 3D
+                                physics-driven mounted jousting interactions, networked AI behaviors, and real-time
+                                multiplayer netcode.
+                            </p>
+                            <div class="tech-tags">
+                                <span class="tech-tag tech-tag-highlight">Unity</span>
+                                <span class="tech-tag">SteamVR</span>
+                                <span class="tech-tag">C#</span>
+                            </div>
+                            <div class="game-actions">
+                                <a href="https://store.steampowered.com/app/344180/Valiant/" target="_blank"
+                                    rel="noopener" class="btn btn-steam">
+                                    <i class="fa-brands fa-steam"></i> View Valiant on Steam
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Personal Projects & Prototypes -->
+        <section class="section section-alt" id="projects">
+            <div class="container">
+                <div class="section-heading">
+                    <h2>Personal Projects & Prototypes</h2>
+                    <p>Web applications, gameplay prototypes, and experimental mechanics projects.</p>
+                </div>
+
+                <div class="games-grid">
+
+                    <!-- Space Pirates -->
+                    <article class="game-card">
+                        <div class="carousel-container">
+                            <div class="carousel-slides">
+                                <img src="images/SpacePirates-combat.png" alt="Space Pirates Combat"
+                                    class="carousel-slide active">
+                                <img src="images/SpacePirates-fire.png" alt="Space Pirates Firing"
+                                    class="carousel-slide">
+                            </div>
+                            <button class="carousel-arrow prev-arrow" aria-label="Previous image"><i
+                                    class="fa-solid fa-chevron-left"></i></button>
+                            <button class="carousel-arrow next-arrow" aria-label="Next image"><i
+                                    class="fa-solid fa-chevron-right"></i></button>
+                            <div class="carousel-dots"></div>
+                            <span class="media-badge"><i class="fa-solid fa-vial"></i> Prototype</span>
+                        </div>
+                        <div class="game-details">
+                            <div class="game-header">
+                                <h3 class="game-title">Space Pirates</h3>
+                                <span class="game-role">Co-op Gameplay & Netcode Prototype</span>
+                            </div>
+                            <p class="game-description">
+                                Chaotic multiplayer cooperative game featuring fast-paced smash-and-grab gameplay,
+                                procedural level generation, and dynamic ship hazards that players must repair
+                                mid-combat.
+                            </p>
+                            <div class="tech-tags">
+                                <span class="tech-tag tech-tag-highlight">Unity</span>
+                                <span class="tech-tag tech-tag-highlight">Photon Fusion</span>
+                                <span class="tech-tag">C#</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Space Defence & Exploration Game -->
+                    <article class="game-card">
+                        <div class="carousel-container">
+                            <div class="carousel-slides">
+                                <img src="images/TowerGame-building.png" alt="Space Defence & Exploration Building"
+                                    class="carousel-slide active">
+                                <img src="images/TowerGame-combat.png" alt="Space Defence & Exploration Combat"
+                                    class="carousel-slide">
+                            </div>
+                            <button class="carousel-arrow prev-arrow" aria-label="Previous image"><i
+                                    class="fa-solid fa-chevron-left"></i></button>
+                            <button class="carousel-arrow next-arrow" aria-label="Next image"><i
+                                    class="fa-solid fa-chevron-right"></i></button>
+                            <div class="carousel-dots"></div>
+                            <span class="media-badge"><i class="fa-solid fa-vial"></i> Prototype</span>
+                        </div>
+                        <div class="game-details">
+                            <div class="game-header">
+                                <h3 class="game-title">Space Defence & Exploration Game</h3>
+                                <span class="game-role">Co-op Building, Exploration & AI Systems</span>
+                            </div>
+                            <p class="game-description">
+                                Cooperative multiplayer space ship management prototype featuring advanced AI-controlled
+                                crewmates, resource
+                                management, ship/base construction, base defence, planet exploration, and resource
+                                gathering.
+                            </p>
+                            <div class="tech-tags">
+                                <span class="tech-tag tech-tag-highlight">Unity</span>
+                                <span class="tech-tag tech-tag-highlight">Photon Fusion</span>
+                                <span class="tech-tag">C#</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Hidden-hex -->
+                    <article class="game-card">
+                        <div class="carousel-container">
+                            <div class="carousel-slides">
+                                <img src="images/HiddenHex.png" alt="Hidden-hex Game Project"
+                                    class="carousel-slide active">
+                            </div>
+                            <span class="media-badge"><i class="fa-solid fa-globe"></i> Personal Project</span>
+                        </div>
+                        <div class="game-details">
+                            <div class="game-header">
+                                <h3 class="game-title">Hidden-hex</h3>
+                                <span class="game-role">Personal Web App Project</span>
+                            </div>
+                            <p class="game-description">
+                                Social deduction web game inspired by Werewolf where players do not know their own
+                                secret roles and must deduce them through strategic gameplay interactions and player
+                                communication.
+                            </p>
+                            <div class="tech-tags">
+                                <span class="tech-tag tech-tag-highlight">Node.js</span>
+                                <span class="tech-tag tech-tag-highlight">React</span>
+                                <span class="tech-tag">TypeScript</span>
+                            </div>
+                            <div class="game-actions">
+                                <a href="https://orange-island-0be0aac00.7.azurestaticapps.net/" target="_blank"
+                                    rel="noopener" class="btn btn-secondary">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i> Play / View Demo
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Professional Experience Section -->
+        <section class="section" id="experience">
+            <div class="container">
+                <div class="section-heading">
+                    <h2>Professional Experience</h2>
+                </div>
+
+                <div class="timeline">
+
+                    <div class="timeline-card">
+                        <div class="timeline-head">
+                            <span class="timeline-role">Lead Developer</span>
+                            <span class="timeline-date">Dec 2022 – Jun 2026</span>
+                        </div>
+                        <div class="timeline-company">Oh Baby Games (Remote)</div>
+                        <ul class="timeline-bullets">
+                            <li>Led the development of commercial titles (including <strong>Pawker</strong>, <strong>Oh
+                                    Baby Kart</strong>, and <strong>Torii: Beyond the gates</strong> on Steam) through
+                                their full lifecycle, taking them from prototype to release.</li>
+                            <li>Engineered multiplayer networking infrastructure using <strong>Photon Quantum</strong>
+                                and <strong>Photon Fusion</strong>.</li>
+                            <li>Built custom Unity Editor tooling and AI workflows to simplify implementation and reduce
+                                designer iteration times.</li>
+                        </ul>
+                    </div>
+
+                    <div class="timeline-card">
+                        <div class="timeline-head">
+                            <span class="timeline-role">Research Engineer</span>
+                            <span class="timeline-date">Nov 2016 – Dec 2022</span>
+                        </div>
+                        <div class="timeline-company">CSIRO</div>
+                        <ul class="timeline-bullets">
+                            <li>Pioneered custom XR solutions across agriculture, entomology, urban planning, and
+                                genomics.</li>
+                            <li>Researched and architected low-latency networking systems for multi-user XR
+                                synchronization across HoloLens, HTC Vive, and Oculus Rift.</li>
+                        </ul>
+                    </div>
+
+                    <div class="timeline-card">
+                        <div class="timeline-head">
+                            <span class="timeline-role">Programmer</span>
+                            <span class="timeline-date">Jun 2016 – Jun 2017</span>
+                        </div>
+                        <div class="timeline-company">Offpeak Games (Remote)</div>
+                        <ul class="timeline-bullets">
+                            <li>Co-developed and shipped 3 commercial multiplayer VR titles on Steam: <em>Crazy
+                                    Fishing</em>, <em>Arcane</em>, and <em>Valiant</em>.</li>
+                            <li>Designed 3D physics interaction systems and programmed networked AI behaviors for
+                                real-time VR combat.</li>
+                        </ul>
+                    </div>
+
+                    <div class="timeline-card">
+                        <div class="timeline-head">
+                            <span class="timeline-role">Programmer</span>
+                            <span class="timeline-date">Jan 2014 – Jan 2015</span>
+                        </div>
+                        <div class="timeline-company">Gitsumm Inc. (Remote)</div>
+                        <ul class="timeline-bullets">
+                            <li>Engineered cross-platform HTML5 and Unity games, building backend PHP server
+                                infrastructure for global leaderboards and admin tooling.</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Skills Section -->
+        <section class="section section-alt" id="skills">
+            <div class="container">
+                <div class="section-heading">
+                    <h2>Technical Skills & Competencies</h2>
+                </div>
+
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Languages & Frameworks</h3>
+                        <p class="skill-tags">C#, C++, TypeScript, JavaScript, Python, Java, PHP, Node.js, React, SQL,
+                            Postgres</p>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Engines, Networking & XR</h3>
+                        <p class="skill-tags">Unity, Photon Fusion, Photon Quantum, OpenXR, MRTK, Git, npm</p>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Cloud & Infrastructure</h3>
+                        <p class="skill-tags">GCP, AWS, Firebase, CI/CD Pipelines, Docker, REST APIs</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section" id="contact">
+            <div class="container">
+                <div class="contact-box">
+                    <h2>Let's Connect</h2>
+                    <p>I am available for lead game engineering roles, technical consultation, or software projects.</p>
+                    <div class="contact-links">
+                        <a href="Simon_Malnar_Resume.pdf" target="_blank" class="btn btn-primary"><i
+                                class="fa-solid fa-file-arrow-down"></i> Download Resume (PDF)</a>
+                        <a href="mailto:smalnardev@gmail.com" class="btn btn-secondary"><i
+                                class="fa-solid fa-envelope"></i> smalnardev@gmail.com</a>
+                        <a href="https://www.linkedin.com/in/simonmalnar/" target="_blank" rel="noopener"
+                            class="btn btn-secondary"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Simon Malnar</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
